@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Lab 03</string>
+    <string name="widget_task_title">Upcoming Task</string>
+    <string name="widget_task_empty">No Task</string>
+
 </resources>

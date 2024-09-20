@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Reminder Title -->
+    <EditText
+        android:id="@+id/reminderTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Reminder Title"
+        android:inputType="text" />
+
+    <!-- Date Picker for setting the reminder date -->
+    <DatePicker
+        android:id="@+id/datePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:datePickerMode="spinner" />
+
+    <!-- Time Picker for setting the reminder time -->
+    <TimePicker
+        android:id="@+id/timePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner" />
+
+    <!-- Button to set the reminder -->
+    <Button
+        android:id="@+id/btnSetReminder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Set Reminder" />
+
+    <Button
+        android:id="@+id/btnShowReminders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Reminders" />
+
+</LinearLayout>
