@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:padding="8dp">
+    android:padding="12dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:gravity="center_vertical"
+    android:divider="@android:color/darker_gray"
+    android:showDividers="middle"
+    android:dividerPadding="8dp">
 
     <TextView
         android:id="@+id/taskTitle"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="Sample Task" />
+        android:text="Sample Task"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:paddingRight="8dp" />
 
     <Button
         android:id="@+id/btnEdit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Edit" />
+        android:text="Edit"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/secondaryColor"
+        android:padding="10dp"
+        android:background="@drawable/rounded_button"
+        android:elevation="4dp" />
 
     <Button
         android:id="@+id/btnDelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Delete" />
+        android:text="Delete"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/accentColor"
+        android:padding="10dp"
+        android:background="@drawable/rounded_button"
+        android:elevation="4dp"
+        android:layout_marginLeft="8dp" />
+
 </LinearLayout>

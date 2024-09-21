@@ -4,25 +4,49 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    android:padding="20dp">
+    android:padding="20dp"
+    android:background="@color/dominantColor">
 
     <Button
         android:id="@+id/btnTaskList"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Task List" />
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/rounded_button"
+        android:backgroundTint="@color/secondaryColor"
+        android:elevation="4dp"
+        android:padding="12dp"
+        android:text="Task List"
+        android:textColor="@color/white" />
 
     <Button
         android:id="@+id/btnTimer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Timer/Stopwatch"
-        android:layout_marginTop="16dp" />
+        android:textColor="@color/white"
+        android:backgroundTint="@color/secondaryColor"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="4dp"
+        android:background="@drawable/rounded_button" />
 
     <Button
         android:id="@+id/btnReminder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reminder System"
-        android:layout_marginTop="16dp" />
+        android:textColor="@color/white"
+        android:backgroundTint="@color/accentColor"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:elevation="6dp"
+        android:background="@drawable/rounded_button" />
 </LinearLayout>
