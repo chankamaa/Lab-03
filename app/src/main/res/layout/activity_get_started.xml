@@ -18,7 +18,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/get_started_description"
+        android:text="Let's get started with setting up your tasks, reminders, and timers to help you stay organized."
         android:textSize="16sp"
         android:gravity="center"
         android:paddingBottom="40dp" />
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:text="Get Started"
         android:backgroundTint="@color/secondaryColor"
-        android:textColor="@android:color/white"
+        android:textColor="@android:color/black"
         android:elevation="4dp"
         android:padding="12dp" />
 </LinearLayout>

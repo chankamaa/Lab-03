@@ -16,47 +16,47 @@
             android:id="@+id/radioTimer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:checked="true"
             android:text="Timer"
-            android:checked="true" />
+            android:textColor="@color/black" />
 
         <RadioButton
             android:id="@+id/radioStopwatch"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Stopwatch" />
+            android:text="Stopwatch"
+            android:textColor="@color/black" />
     </RadioGroup>
-
 
     <LinearLayout
         android:id="@+id/inputFields"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="189dp"
+        android:layout_height="70dp"
         android:orientation="horizontal">
 
         <EditText
             android:id="@+id/inputHours"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
+            android:layout_width="60dp"
+            android:layout_height="70dp"
             android:hint="HH"
             android:inputType="number" />
 
         <EditText
             android:id="@+id/inputMinutes"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
+            android:layout_width="56dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="8dp"
             android:hint="MM"
-            android:inputType="number"
-            android:layout_marginLeft="8dp" />
+            android:inputType="number" />
 
         <EditText
             android:id="@+id/inputSeconds"
-            android:layout_width="50dp"
-            android:layout_height="wrap_content"
+            android:layout_width="69dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
             android:hint="SS"
-            android:inputType="number"
-            android:layout_marginLeft="8dp" />
+            android:inputType="number" />
     </LinearLayout>
-
 
     <TextView
         android:id="@+id/timerText"
@@ -67,26 +67,29 @@
         android:layout_gravity="center_horizontal"
         android:paddingBottom="32dp" />
 
-
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Start" />
-
+        android:text="Start"
+        android:backgroundTint="@color/secondaryColor"
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/btnStop"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Stop"
+        android:backgroundTint="@color/secondaryColor"
+        android:textColor="@color/black"
         android:layout_marginTop="16dp" />
-
 
     <Button
         android:id="@+id/btnReset"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Reset"
+        android:backgroundTint="@color/secondaryColor"
+        android:textColor="@color/black"
         android:layout_marginTop="16dp" />
 </LinearLayout>

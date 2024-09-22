@@ -29,7 +29,6 @@
         android:textColor="@android:color/white"
         android:backgroundTint="@color/secondaryColor"
         android:padding="10dp"
-        android:background="@drawable/rounded_button"
         android:elevation="4dp" />
 
     <Button
@@ -40,7 +39,6 @@
         android:textColor="@android:color/white"
         android:backgroundTint="@color/accentColor"
         android:padding="10dp"
-        android:background="@drawable/rounded_button"
         android:elevation="4dp"
         android:layout_marginLeft="8dp" />
 

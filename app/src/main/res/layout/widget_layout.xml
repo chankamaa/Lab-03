@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -5,7 +6,7 @@
     android:padding="16dp"
     android:gravity="center_vertical"
     android:elevation="8dp"
-    android:background="@drawable/gradient_background">
+    android:background="@android:color/holo_blue_light">
 
     <TextView
         android:id="@+id/widgetTaskTitle"
@@ -17,28 +18,25 @@
         android:gravity="center_horizontal"
         android:textColor="@android:color/white"
         android:padding="12dp"
-        android:background="@drawable/title_background"
+        android:background="@android:color/secondary_text_dark"
         android:elevation="4dp"
         android:layout_marginBottom="8dp"
         android:layout_gravity="center_horizontal"
         android:paddingHorizontal="16dp"
-        android:shadowColor="@android:color/darker_gray"
-        android:shadowDx="2"
-        android:shadowDy="2"
-        android:shadowRadius="4" />
+        />
 
     <TextView
         android:id="@+id/widgetTask"
-        android:layout_width="wrap_content"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
-        android:text="No Task"
-        android:textSize="16sp"
-        android:paddingTop="12dp"
-        android:gravity="center_horizontal"
-        android:textColor="@android:color/white"
-        android:background="@drawable/task_background"
-        android:padding="10dp"
-        android:elevation="2dp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="12dp" />
+        android:layout_marginTop="12dp"
+        android:background="@android:color/secondary_text_dark"
+        android:elevation="2dp"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:paddingTop="12dp"
+        android:text="No Task"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
 </LinearLayout>

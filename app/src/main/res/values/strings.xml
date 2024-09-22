@@ -18,7 +18,7 @@
     <string name="btn_show_reminders">Show Reminders</string>
     <string name="btn_get_started">Get Started</string>
 
-    <string name="get_started_description">Welcome! Let's get started with setting up your tasks, reminders, and timers to help you stay organized.</string>
+    <string name="get_started_description">Welcome! </string>
     <string name="reminder_set">Reminder has been set successfully!</string>
     <string name="reminder_failed">Failed to set reminder, please try again.</string>
     <string name="task_added">Task has been added.</string>

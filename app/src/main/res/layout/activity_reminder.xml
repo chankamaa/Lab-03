@@ -7,10 +7,11 @@
 
     <EditText
         android:id="@+id/reminderTitle"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="383dp"
+        android:layout_height="62dp"
         android:hint="Reminder Title"
-        android:inputType="text" />
+        android:inputType="text"
+        android:textColorLink="@color/accentColor" />
 
     <DatePicker
         android:id="@+id/datePicker"
@@ -28,12 +29,14 @@
         android:id="@+id/btnSetReminder"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/accentColor"
         android:text="Set Reminder" />
 
     <Button
         android:id="@+id/btnShowReminders"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/accentColor"
         android:text="Show Reminders" />
 
 </LinearLayout>

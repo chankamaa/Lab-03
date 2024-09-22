@@ -15,12 +15,11 @@
         android:layout_marginTop="12dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="12dp"
-        android:background="@drawable/rounded_button"
         android:backgroundTint="@color/secondaryColor"
         android:elevation="4dp"
         android:padding="12dp"
         android:text="Task List"
-        android:textColor="@color/white"
+        android:textColor="@color/black"
         android:textColorLink="#915454" />
 
     <Button
@@ -31,12 +30,11 @@
         android:layout_marginTop="16dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="12dp"
-        android:background="@drawable/rounded_button"
         android:backgroundTint="@color/secondaryColor"
         android:elevation="4dp"
         android:padding="12dp"
         android:text="Timer/Stopwatch"
-        android:textColor="@color/white" />
+        android:textColor="@color/black" />
 
     <Button
         android:id="@+id/btnReminder"
@@ -46,9 +44,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginRight="20dp"
         android:backgroundTint="@color/secondaryColor"
-        android:background="@drawable/rounded_button"
         android:elevation="6dp"
         android:padding="12dp"
         android:text="Reminder System"
-        android:textColor="@color/white" />
+        android:textColor="@color/black" />
 </LinearLayout>
