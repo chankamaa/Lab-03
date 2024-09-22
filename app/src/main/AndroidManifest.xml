@@ -19,29 +19,29 @@
         <activity android:name=".TaskListActivity" />
         <activity android:name=".TimerActivity" />
         <activity android:name=".ReminderActivity" />
-
+        <activity android:name=".ShowRemindersActivity" />
 
         <activity
-            android:name=".MainActivity"
+            android:name=".GetStartedActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".MainActivity" android:exported="true"/>
+
         <receiver android:name=".WidgetProvider" android:exported="true">
             <intent-filter>
                 <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
             </intent-filter>
-
             <meta-data
                 android:name="android.appwidget.provider"
                 android:resource="@xml/widget_info" />
         </receiver>
+
         <receiver android:name=".ReminderReceiver" />
 
-
     </application>
-
 </manifest>
